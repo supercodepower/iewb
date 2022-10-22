@@ -1,0 +1,170 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页-iweb"
+			}
+		}
+	    ,{
+            "path" : "pages/teacher/teacher",
+            "style" :                                                                                 
+            {
+                "navigationBarTitleText": "讲师列表-iweb",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/course/course",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "课程列表-iweb",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/school/school",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "校区列表-iweb",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userCenter/userCenter",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户中心-iweb",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/course/course",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "课程列表-iweb",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/courseDetail/courseDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "课程详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/teacherDetail/teacherDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "讲师详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/schoolDetail/schoolDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "校区详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/favorite/favorite",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收藏夹",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的购物车",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/orderList/orderList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "orderList",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "确认订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/address/address",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收货地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "iweb-在线课堂",
+		"navigationBarBackgroundColor": "#00be56",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#bababa",
+		"selectedColor": "#00be56",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/image/home.png",
+				"text": "首页",
+				"selectedIconPath": "static/image/home_active.png"
+			}, 
+			{
+				"pagePath": "pages/course/course",
+				"iconPath": "static/image/course.png",
+				"text": "课程",
+				"selectedIconPath": "static/image/course_active.png"
+			}, 
+			{
+				"pagePath": "pages/teacher/teacher",
+				"iconPath": "static/image/teacher.png",
+				"text": "讲师"	,
+				"selectedIconPath": "static/image/teacher_active.png"
+			},
+			{
+				"pagePath": "pages/school/school",
+				"iconPath": "static/image/school.png",
+				"text": "校区"		,
+				"selectedIconPath": "static/image/school_active.png"
+			}
+			,{
+				"pagePath": "pages/userCenter/userCenter",
+				"iconPath": "static/image/user.png",
+				"text": "用户"	,
+				"selectedIconPath": "static/image/user_active.png"
+			}
+		]
+	}
+}
